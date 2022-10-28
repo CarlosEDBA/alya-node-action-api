@@ -12,7 +12,7 @@ function copyToTcc() {
   return src([
     './**/*.js',
   ])
-    .pipe(dest('../alya-finance/node_modules/alya-node-action-api'))
+    .pipe(dest('../carlosalmeida-financas/node_modules/alya-node-action-api'))
 }
 
 exports.dev = series(
